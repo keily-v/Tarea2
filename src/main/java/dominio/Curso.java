@@ -37,6 +37,7 @@ public class Curso {
     }
     
     public void setEstudiantesEncimaPromedio(){
+        //codigo duplicado, ya lo tiene en el aterior metodo
         int estudiantes =0;
         double promedio =0;
         
@@ -46,6 +47,7 @@ public class Curso {
         }
         //estudiantes se incrementa 1 cada vez que es comparada su nota
         //con el promedio del curso 
+        
         for (int i = 0; i < 12; i++) {
             if (notas[i]>promedio/12){
                 estudiantes = estudiantes+1;
